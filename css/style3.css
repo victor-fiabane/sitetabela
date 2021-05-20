@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(184, 192, 190);
+}
+.logo img{
+    width: 140px;
+    height: 125px;
+}
+header{
+    background-color: rgb(43, 196, 207);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 125px;
+    padding: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Overpass', sans-serif;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu li a{
+    color:#fff;
+    display: flex;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 367px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Overpass', sans-serif;
+}
+.menu li a:hover{
+    display: block;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+h1{
+    color: #000;
+    text-align: center;
+    font-size: 35pt;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+}
+h2{
+    color: #000;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+}
+h3{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+h4{
+    color: #000;
+    font-family: 'Overpass', sans-serif;
+}
+.container{
+    max-width: 400px;
+    margin-left: 470px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Overpass', sans-serif;
+}
+.container div{
+    flex: 1 1 300px;
+    margin: 10px;
+}
+img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(43, 196, 207);
+    width: 1313px;
+    height: 100px;
+    display: flex;
+    padding: 10px;
+}
+.rodape{
+    justify-content: center;
+}
+.rodape img{
+    width: 110px;
+    height: 100px;
+}
